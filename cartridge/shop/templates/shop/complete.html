@@ -64,7 +64,7 @@ ga('ecommerce:send');
 <p>{% trans "We've sent you a receipt via email." %}</p>
 <p>{% trans "You can also view your invoice using one of the links below." %}</p>
 <br>
-<form class="order-complete-form" method="post" action="{% url "shop_invoice_resend" order.id %}?next={{ request.path }}">
+<form class="order-complete-form" method="post" action="{% url "shop:shop_invoice_resend" order.id %}?next={{ request.path }}">
     {% csrf_token %}
     {% if has_pdf %}
     <a class="btn btn-primary" href="{% url "shop_invoice" order.id %}?format=pdf">{% trans "Download PDF invoice" %}</a>
