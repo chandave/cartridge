@@ -5,7 +5,6 @@ from mezzanine.conf import settings
 
 from cartridge.shop import views
 
-
 _slash = "/" if settings.APPEND_SLASH else ""
 
 urlpatterns = [

@@ -3,7 +3,7 @@
 
 {% block before_content %}
     {% if change %}
-    <form id="resend-email" method="POST" action="{% url "shop_invoice_resend" object_id %}?next={{ request.path }}">
+    <form id="resend-email" method="POST" action="{% url "  shop_invoice_resend" object_id %}?next={{ request.path }}">
         {% csrf_token %}
     </form>
     {% endif %}
