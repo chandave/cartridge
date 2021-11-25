@@ -283,7 +283,7 @@ TEMPLATES = [
                 "mezzanine.pages.context_processors.page",
             ],
             "builtins": [
-                #"mezzanine.template.loader_tags",
+                # "mezzanine.template.loader_tags",
             ],
             "loaders": [
                 "mezzanine.template.loaders.host_themes.Loader",
@@ -321,7 +321,7 @@ INSTALLED_APPS = (
     "mezzanine.blog",
     "mezzanine.forms",
     "mezzanine.galleries",
-    "mezzanine.twitter",
+    # "mezzanine.twitter",
     # "mezzanine.accounts",
 )
 
