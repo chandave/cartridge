@@ -283,7 +283,7 @@ TEMPLATES = [
                 "mezzanine.pages.context_processors.page",
             ],
             "builtins": [
-                "mezzanine.template.loader_tags",
+                #"mezzanine.template.loader_tags",
             ],
             "loaders": [
                 "mezzanine.template.loaders.host_themes.Loader",
